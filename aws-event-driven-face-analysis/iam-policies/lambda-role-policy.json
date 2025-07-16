@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["s3:GetObject"],
+      "Resource": "arn:aws:s3:::image-rekognition-3434234234/*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": ["rekognition:DetectFaces"],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": ["dynamodb:PutItem"],
+      "Resource": "arn:aws:dynamodb:ap-south-1:<your-account-id>:table/user-images"
+    }
+  ]
+}

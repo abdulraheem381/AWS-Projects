@@ -43,4 +43,4 @@ This project is a serverless application that automatically analyzes user-submit
 
 🙌 Author
 Abdul Raheem
-DevOps Engineer
+- DevOps Engineer
